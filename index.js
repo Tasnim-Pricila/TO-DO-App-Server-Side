@@ -45,8 +45,6 @@ async function run() {
             const result = await taskCollection.deleteOne(query);
             res.send(result);
         })
-
-
     }
     finally {
 
